@@ -1,0 +1,53 @@
+body{
+	color:aqua;
+	counter-reset:section;
+	background-color:#0f111a;
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position: top left;
+	background-attachment:fixed;
+	color:black;
+}
+
+
+#ball{
+	outline: rgba(6, 255, 255, 0.527) solid 1vw;
+	top: 0;
+	left: 0;
+	position:absolute;
+	border:rgba(6, 255, 255, 0.527) solid 1vw;
+	border-radius:15vw;
+	z-index:-1;
+}
+
+#red{
+	cursor: pointer;
+	float:left;
+	width:1.5vw;
+	height:1.5vw;
+	border:rgb(255, 62, 69) solid 1.5vw;
+	padding:1vw;
+	margin:1vw;
+	border-radius:2vw;
+}
+#blue{
+	cursor: pointer;
+	padding:1vw;
+	background-color:rgba(6, 255, 255, 0.527);
+	margin:1vw;
+	width:1.5vw;
+	height:1.5vw;
+	border:rgb(6, 255, 255) solid 1.5vw;
+	border-radius:2vw;
+}
+
+#green{
+	cursor: pointer;
+	padding:1vw;
+	margin:1vw;
+	margin-bottom:0vw;
+	width:1.5vw;
+	height:1.5vw;
+	border:rgb(6, 255, 81) solid 1.5vw;
+	border-radius:2vw;
+}
